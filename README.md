@@ -10,7 +10,7 @@ Application Features When the user opens the application, the user sees a form t
 
 The submit button is disabled if text input is empty.
 
-When the user enters a country name or partial country name in the input field and presses submit, make a call to https://restcountries.eu/rest/v2/name/{{FORM_INPUT_HERE}}
+When the user enters a country name or partial country name in the input field and presses submit, make a call to https://restcountries.eu/rest/v2/name/{{INPUT}}
 
 The user is taken to a screen that now displays the information about the country. 
 Display the following information: 
@@ -32,8 +32,6 @@ Display the following information:
 To get weather information, sign up for a free account on https://weatherstack.com/. After you sign up you will receive an API key.
 
 Use the following API to get city weather data. http://api.weatherstack.com/current? access_key={{YOUR_ACCESS_KEY}}&query ={{ENTER CAPITAL CITY HERE}}
-
-
 
 
 
