@@ -10,7 +10,7 @@ Application Features When the user opens the application, the user sees a form t
 
 The submit button is disabled if text input is empty.
 
-When the user enters a country name or partial country name in the input field and presses submit, make a call to https://restcountries.eu/rest/v2/name/{{INPUT}}
+When the user enters a country name or partial country name in the input field and presses submit, make a call to https://restcountries.com/v2/name/{{INPUT}}
 
 The user is taken to a screen that now displays the information about the country. 
 Display the following information: 
